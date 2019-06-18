@@ -1,0 +1,926 @@
+.bg-light {
+    background-color: white !important;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0);
+}
+.img-navbar {
+    max-width: 192px;
+    min-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+top.bg-light {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .image_navbar{
+
+    width: 15%;
+    height:15%;
+  }
+.nosotroslink {
+    font-weight: bold;
+}
+.header1 {
+    color: #000053 !important;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+a {
+    color: #000053;
+    text-decoration: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+    color: #000053;
+
+}
+.logo{
+
+    text-align: left;
+    position: relative;
+
+
+}
+.home {
+    text-align: right;
+    background-image: url(/img/suneco-imagenweb.png);
+    height: 630px;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.image_home1 {
+    position: absolute;
+    width: 180px;
+    right: 10px;
+    bottom: 12px;
+    height: auto;
+    transform: rotate(-5deg);
+}
+
+.image_home2 {
+    position: absolute;
+    left: 0px!important;
+    width: 200px!important;
+    top: -190px!important;
+}
+.form-control {
+    color: #000053;
+    margin-bottom: 2%;
+    background-color:rgba(191, 191, 191, 0.4)!important;
+    border-radius: 0; 
+}
+ol, ul, dl {
+        margin-top: 10px;
+        margin-bottom: -1rem;
+
+}
+li{
+   margin-left: 2%;
+   font-family:Helvetica;
+   font-weight: 400;
+}
+.menu {
+    margin-top: 0px;
+    padding-top: 0%;
+    color: #000053;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end!important;
+}
+
+a:link 
+{ 
+text-decoration:none; 
+} 
+
+
+
+.ol{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    letter-spacing: 1.36;
+    margin-top: 20px;
+     
+    
+
+}
+.suneco_logo_home {
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 48%;
+    padding-left: 22%;
+}
+.image_nosotros {
+    position: absolute;
+    right: 40px;
+    width: 200px;
+    top: -1px;
+}
+.nosotros{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    
+
+}
+.h1_nosotros {
+    font-family: Helvetica;
+    color: #000053;
+    font-size: 70px;
+    transform: rotate(-90deg);
+    font-weight: 800;
+    position: absolute;
+    top: 47%;
+    left: 6%;
+}
+
+.texto_nosotros {
+    color: #707070;
+    font-family: Helvetica;
+    text-align: justify;
+    width: 46%;
+    font-size: 12px;
+    margin-left: 38%;
+    margin-top: 30%;
+}
+.nosotros_izquierda{
+ 
+     background-color:#000053;
+     width: 100%;
+     height: 600px;
+
+
+
+}
+.contactanos {
+    font-family: Helvetica!important;
+    font-size: 10px!important;
+    text-align: center;
+    color: #000053!important;
+    margin-top: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.contactanosh {
+  
+    margin-bottom: 4%;
+    font-weight: 910;
+    letter-spacing: 2.2px;
+    
+}
+.sune3 {
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(/img/sune3.jpg);
+}
+
+.contact_form{
+    color: #000053;
+}
+
+.notificar {
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: Helvetica;
+    margin-top: 15px;
+}
+.nuestro_sitio{
+    color: #2b3fe9;
+    font-family: Helvetica;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.image_nuestro_sitio1 {
+    position: absolute;
+    left: 100px;
+    top: -210px;
+}
+.image_nuestro_sitio2 {
+    position: absolute;
+    bottom: 120%;
+    right: -160px;
+    width: 100px;
+}
+.image_nuestro_sitio3 {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    top: 290px;
+}
+.container_notificar{
+    overflow: hidden;
+    height: 800px;
+
+
+}
+.container_contactanos{
+    height: 800px;
+}
+
+
+
+
+.newsletter{
+    margin-top: 10%;
+}
+
+.newsletter input {
+    float: left;
+    width: 55%;
+    margin-right: 21px;
+    height: 43px;
+    background-color: white;
+    margin-left: 125px;
+}
+
+.notificar_button {
+    height: 43px;
+    width: 16%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #2b3fe9 !important;
+}
+.final{
+    margin-top: 15%;
+    margin-bottom: 10%;
+
+
+}
+.logo-concept{
+    text-align: right;
+}
+.sunecocopy{
+    text-align: center;
+    padding-top: 1%;
+    font-family:Helvetica;
+
+}
+footer{
+    background-color: #eaeaea;
+    height: 110px;
+     
+}
+.footer_row{
+    padding-top: 2.5%;
+
+
+}
+.enviar_button {
+    border-radius: 30px;
+    width: 29%;
+    height: 23%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+
+/*Pantalla gigante-Mac*/
+@media (min-width: 1441px) {
+    .home {
+        text-align: right;
+        width: 100%;
+        height: 700px;
+    }
+    .menu{
+        font-size: 17px;
+
+    }
+    .image_home2 {
+        position: absolute;
+        left: 0px!important;
+        width: 250px!important;
+        top: -240px!important;
+    }
+    .image_nosotros {
+     
+        right: 75px;
+        width: 290px;
+       
+    }
+    .nosotros{
+        height: 800px;
+
+
+    }
+    .nosotros_izquierda{
+        height: 800px;
+
+    }
+   
+    .texto_nosotros {
+        width: 40%;
+        font-size: 16px;
+        margin-top:10%!important;
+    }
+    .h1_nosotros {
+        top: 235px;
+        font-size: 60px;
+        left: 120px;
+    }
+    
+    .sune3{
+        height: 800px;}
+    .contactanos{
+        height: 800px;
+    }
+    .form-control {
+        margin-bottom: 5%;
+        height: 40px;
+        font-size: 18px;
+    }
+    .image_home1 {
+        width: 200px;
+        bottom: -95px;
+    }
+    .footer {
+        height: 208px;
+    }
+    .image_nuestro_sitio1 {
+        left: 300px;
+        top: -272px;
+        width: 10%;
+    }
+
+    .image_nuestro_sitio3 {
+     
+        bottom: -207px;
+        left: 0;
+        width: 20%;
+    }
+    .nuestro_sitio {
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 40px;
+    }
+    .notificar {
+        font-size: 18px;
+        padding-right: 190px;
+        padding-left: 190px;
+        margin-top: 15px;
+    }
+    .newsletter input {
+        width: 40%;
+        height: 45px;
+        margin-right: 10px;
+        margin-left: 256px;
+        background-color: rgba(191, 191, 191, 0.4);
+    }
+    .notificar_button {
+        height: 45px;
+        width: 15%;
+        font-size: 21px;
+        
+    }
+    }
+    
+/*Pantalla grande*/
+@media (min-width: 1200px) {
+
+    .container_notificar {
+        overflow: hidden;
+        height: 600px;
+    }
+    
+    .nosotros {
+        background-color: white;
+        width: 100%;
+        height: 505px;
+    }
+
+    .image_nuestro_sitio1 {
+        left: 24%;
+        top: -73%;
+    }
+.container_contactanos {
+    height: 505px;
+}
+.texto_nosotros {
+    margin-top: 20%;
+}
+.h1_nosotros {
+    top: 235px;
+    font-size: 60px;
+    left: 90px;
+}
+
+
+}/*Pantalla  laptop*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+    .image_home1 {
+        position: absolute;
+        width: 180px;
+        right: 10px;
+        bottom: -85px;
+        height: auto;
+        transform: rotate(-5deg);
+    }.home{
+        height: 550px;
+    }
+    .image_nuestro_sitio1 {
+        position: absolute;
+        left: 175px;
+        top: -60%;
+        width: 60px;
+    }
+    .image_nuestro_sitio3 {
+        position: absolute;
+        bottom: -120px;
+        right: 0;
+        left: 0;
+        width: 160px;
+    }
+    
+    .container_contactanos {
+        height: 479px;
+    }
+
+    .container_notificar {
+        overflow: hidden;
+        height: 485px;
+    }
+    .h1_nosotros {
+        left: 3%;
+    }
+    footer {
+        height: 90px;
+    }
+
+}/*Pantalla  laptop landscape*/
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}/*Tablet*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .suneco_logo_home {
+        position: absolute;
+        margin: 205px;
+        top: 80px;
+        padding: 0;
+    }
+    .nosotroslink {
+      
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    button.navbar-toggler.collapsed {
+        margin-top: 1px;
+    }
+    img.navbar-brand.image_navbar {
+        width: 18%!important;
+    }
+    button.navbar-toggler.collapsed {
+        width: auto;
+    }
+    .image_home2 {
+       display: none;
+    }
+    .image_home1 {
+        display: none;
+}
+  
+    .image_nosotros {
+        width: 130px;
+}
+    .nosotros_izquierda {
+        display: none;
+}
+    .texto_nosotros {
+        width: 80%;
+        font-size: 14px;
+        margin-left: 5%;
+        padding: 1%;
+        margin-top: 25%!important;
+}
+    .sune3 {
+        background-position:center; 
+        height: 100px
+       
+}
+    .navbar-light .navbar-brand {
+        
+        width: 20%!important;
+        height: auto;
+}
+    .menu {
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    }
+    .h1_nosotros {
+        font-size: 49px;
+        transform: rotate(0deg);
+        top: 90px;
+        left: 55px;
+    }
+    .container_contactanos {
+        height: 600px;
+    }
+    .container {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .nuestro_sitio {
+       
+        font-size: 33px;
+     }
+     .image_nuestro_sitio3 {
+        
+        bottom: -153px;
+       
+    }
+    .image_nuestro_sitio1 {
+        position: absolute;
+        left: -27%;
+        top: 20px;
+        width: 90px;
+        transform: rotate(270deg);
+    }
+    .image_nuestro_sitio2 {
+        position: absolute;
+        bottom: 115%;
+        right: -10%;
+        width: 60px;
+    }
+    .notificar_button {
+        
+        width: 20%;
+        
+    }
+    .newsletter input {
+       
+        margin-left: 60px;
+    }
+    .contactanosh {
+        
+        margin-top: 2%;
+    }
+    .footer {
+        height: 80px;
+    }
+    .container_notificar {
+        overflow: hidden;
+        height: 500px;
+    }
+    img.image_footer {
+        width: 70%;
+    }
+    img.logo-concept {
+        width: 70%;
+    }
+}
+
+/*Mobile l y m*/
+@media (min-width: 576px) and (max-width: 767px){
+    img.navbar-brand.image_navbar {
+        width: 40%;
+    }
+    .navbar-light .navbar-toggler {
+        margin-top: 9px;
+    }
+    .nosotroslink {
+     
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+    .menu {
+        font-size: larger;
+        text-align: center;
+    }
+    .home {
+        height: 400px;
+        width: 100%;
+    }
+    .suneco_logo_home {
+        width: 100%;
+        margin-top: 180px;
+        margin-left: 22%;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .image_home2 {
+        display: none;
+}
+    .nosotros_izquierda {
+   
+         height: 60px;
+}
+    .image_home1 {
+        display: none;
+   
+}
+    .navbar-light .navbar-brand {
+        width: 25%;
+        height: auto;
+}
+    .image_nosotros {
+        position: absolute;
+        right: 30px;
+        width: 130px;
+        top: -1px;
+}
+    .texto_nosotros {
+        width: 80%;
+        font-size: 13px;
+        margin-left: 10%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+}
+    .h1_nosotros {
+  
+        font-size: 47px;
+        transform: rotate(0deg);
+        top: 15%;
+        left: 12%;
+}
+    .contactanosh {
+        margin-bottom: 12%;
+        font-weight: 900;
+        letter-spacing: 5.2px;
+        margin-top: 12%;
+}
+
+    .form-control {
+        margin-bottom: 1%;
+}
+    .enviar_button {
+    
+        margin-top: 15px;
+}
+    .container_notificar {
+  
+        height: 505px;
+}
+    .image_nuestro_sitio2 {
+        bottom: 294px;
+        right: 59px;
+        width: 55px;
+}
+    .notificar {
+        font-size: 15px;
+        margin-top: 15px;
+}
+    .nuestro_sitio {
+        font-size: 26px;
+        
+}
+
+    .notificar_button {
+        height: 43px;
+        width: 30%;
+        font-size: 19px;
+        margin-left: 35%;
+        margin-top: 2%;
+}
+    .newsletter input {
+        float: left;
+        width: 80%;
+        margin-right: 15px;
+        margin-left: 70px;
+}
+    .image_nuestro_sitio3 {
+        position: absolute;
+        bottom: -180px;
+        right: 0;
+        left: 0;
+}
+    .image_footer {
+        width: 29%!important;
+        height: auto;
+        margin-top: 3%;
+}
+
+    footer {
+        height: auto;
+}
+    .logo {
+        text-align: center;
+        position: relative;
+}
+    .sunecocopy {
+        
+        padding-top: 10%;
+        font-size: 20px;
+}
+    .logo-concept {
+        text-align: center;
+        width: 29%!important;
+        height: auto;
+        margin-top: 3%;
+}
+.container_contactanos {
+    height: 600px;
+}
+
+@media (max-width: 375px){
+    .image_nuestro_sitio2 {
+        bottom: 332px;
+        right: 30px;
+        width: 54px;
+    }
+    .notificar {
+        font-size: 16px;
+        margin-top: 15px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .nuestro_sitio {
+        font-size: 37px;
+    }
+    .image_nuestro_sitio3 {
+      
+        bottom: -154px;
+       
+    }
+    .suneco_logo_home {
+    width: 100%;
+    margin-top: 45%;
+    margin-left: 25%;
+    padding-left: 0%;
+    padding-right: 0;
+}
+.newsletter input {
+    margin-left: 30px;
+
+}
+
+}
+}
+/*Mobile  xs*/
+@media (max-width: 575px) {
+    .home {
+        
+        height: 260px;
+        background-position: top;
+    }
+    .suneco_logo_home {
+        width: 100%;
+        margin-top: 135px;
+        margin-left: 25%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .image_home2 {
+       display: none;
+    }
+    .nosotros_izquierda {
+        display: none!important;
+    }
+    .texto_nosotros {
+        color: black;
+        font-family: Helvetica;
+        text-align: justify;
+        font-size: 12px;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 6%;
+    }
+    .image_nosotros {
+        
+        display: none;
+    }
+    .nosotros {
+       
+        height: 400px;
+    }
+    .container_contactanos {
+        height: 620px;
+    }
+    .h1_nosotros {
+        font-family: Helvetica;
+        color: #000053;
+        font-size: 30px;
+        text-align: center;
+        transform: rotate(0deg);
+        font-weight: 800;
+        position: initial;
+         
+        margin-top: 10%;
+    }
+    .contactanosh {
+        margin-top: -8%;
+        margin-bottom: 10%;
+        font-weight: 800;
+        letter-spacing: 2.2px;
+        font-size: 31px;
+    }
+    .nosotroslink {
+       
+        margin-top: 10px;
+        margin-bottom: 10px;
+      
+    }
+    ul.navbar-nav {
+        text-align: center;
+    }
+    .menu {
+        font-size: larger;
+    }
+    .image_home1 {
+       
+        display: none;
+      
+    }
+    img.navbar-brand {
+        width: 35%;
+        height: auto;
+    }
+    .enviar_button {
+        border-radius: 30px;
+        width: 45%;
+        height: 23%;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 12px;
+    }
+    .nuestro_sitio {
+        
+        margin-top: 10%;
+        font-size: 30px;
+        margin-bottom: 10%;
+    }
+    .notificar {
+       
+        font-size: 16px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 15px;
+    }
+    .newsletter input {
+     
+        width: 81%;
+        margin-right: 21px;
+        height: 43px;
+        margin-left: 35px;
+        background-color: rgba(191, 191, 191, 0.4);
+    }
+    .notificar_button {
+        height: 43px;
+        width: 33%;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 35%;
+        margin-top: 2%;
+    }
+    .container_notificar {
+        overflow: hidden;
+        height: 460px;
+    }
+    .image_nuestro_sitio2 {
+        display: none;
+       
+    }
+    .image_nuestro_sitio3 {
+        position: absolute;
+        bottom: -71px;
+        right: 0;
+        left: 0;
+        width: 80px;
+    }
+    footer {
+        height: auto;
+    }
+    .logo {
+        text-align: center;
+        position: relative;
+    }
+    .logo-concept {
+        width: 50%!important;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+
+}
