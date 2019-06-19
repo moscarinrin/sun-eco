@@ -65,7 +65,7 @@ a:hover {
 
 .home {
     text-align: right;
-    background-image: url(/img/suneco-imagenweb.png);
+    background-image: url(../img/suneco-imagenweb.png);
     height: 630px;
     width: 100%;
     background-size: cover;
@@ -76,7 +76,7 @@ a:hover {
     position: absolute;
     width: 180px;
     right: 10px;
-    bottom: 12px;
+    bottom: -83px;
     height: auto;
     transform: rotate(-5deg);
 }
@@ -210,7 +210,7 @@ a:link {
     width: 100%;
     background-size: cover;
     background-position: bottom;
-    background-image: url(/img/sune3.jpg);
+    background-image: url(../img/sune3.jpg);
 }
 
 .contact_form {
