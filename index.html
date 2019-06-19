@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fitt=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SUNECO</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -14,7 +15,7 @@
 <body>
 
     <header class="container-fluid header1 d-none d-lg-block fixed-top">
-        <nav class="navbar navbar-light fixed-top bg-light ">
+        <nav class="navbar navbar-light fixed-top bg-light "data-aos="fade-down"  data-aos-duration="800" data-aos-delay="200">
 
             <img class="navbar-brand img-navbar" src="img/logos.svg" class="d-inline-block align-top" alt="SunEco">
 
@@ -29,7 +30,7 @@
     </header>
 
     <!--nueva navbar2-->
-    <header class="container-fluid header1 d-block d-lg-none ">
+    <header class="container-fluid header1 d-block d-lg-none "data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <img class="navbar-brand" src="img/logos.svg" width="12%" height="12%" class="d-inline-block align-top"
                 alt="SunEco">
@@ -52,7 +53,8 @@
     <section class="container-fluid home">
         <div class="row">
             <div class="col-6 col-sm-12"></div>
-            <img class="col-6 suneco_logo_home " src="img/Group 1.svg" alt="logo-SunEco">
+            <img class="col-6 suneco_logo_home" src="img/Group 1.svg" alt="logo-SunEco" data-aos="fade-right"
+                data-aos-duration="1000" data-aos-delay="200">
         </div>
     </section>
 
@@ -60,16 +62,19 @@
     <section id="nosotros" class="container-fluid nosotros">
         <div class="row">
             <div class="col-lg-5 nosotros_izquierda">
-                <img class="image_home1" src="img/Artboard 17.svg">
-                <img class="image_home2" src="img/Artboard 12.svg">
+                <img class="image_home1" src="img/Artboard 17.svg" data-aos="zoom-in" data-aos-duration="1000"
+                    data-aos-delay="200">
+                <img class="image_home2" src="img/Artboard 12.svg" data-aos="zoom-in" data-aos-duration="1000"
+                    data-aos-delay="200">
 
             </div>
 
             <div class="col-lg-7 col-sm-12">
 
-                <img class="image_nosotros" src="img/Artboard 14.svg">
-                <h1 class="h1_nosotros">Nosotros</h1>
-                <p class="texto_nosotros">
+                <img class="image_nosotros" src="img/Artboard 14.svg" data-aos="zoom-in" data-aos-duration="1000"
+                    data-aos-delay="50">
+                <h1 class="h1_nosotros" >Nosotros</h1>
+                <p class="texto_nosotros" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
                     Somos una empresa especializada en el financia-
                     miento de energía solar y proyectos de eficiencia
                     energética, cuya ventaja competitiva consiste en
@@ -103,8 +108,9 @@
             <div class="col-lg-5  sune3"></div>
 
             <div class="col-lg-7 col-md-12  contactanos">
-                <h1 class="contactanosh">Contáctanos</h1>
-                <form class="contact_form">
+                <h1 class="contactanosh" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="200">
+                    Contáctanos</h1>
+                <form class="contact_form" data-aos="flip-left">
                     <div class="container">
                         <div class="row ">
 
@@ -136,7 +142,7 @@
                         <div class="row">
 
                             <div class="col-12"><textarea class="form-control mensaje" rows="6">Mensaje</textarea>
-                                <button type="submit" class="btn btn-primary enviar_button">Enviar</button>
+                                <button type="submit" class="btn btn-primary enviar_button" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50" >Enviar</button>
 
                             </div>
 
@@ -158,25 +164,31 @@
 
             <div class="col-md-8 col-12 ">
 
-                <img class="image_nuestro_sitio1" src="img/Group 2.svg">
-                <h1 class="nuestro_sitio">Nuestro sitio sigue mejorando</h1>
-                <p class="notificar">Para notificarte cuando quede terminando deja tu correo electrónico en el siguiente
+                <img class="image_nuestro_sitio1" src="img/Group 2.svg" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <h1 class="nuestro_sitio"data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="200">Nuestro sitio sigue mejorando</h1>
+                <p class="notificar"data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="400">Para notificarte cuando quede terminando deja tu correo electrónico en el siguiente
                     campo.</p>
 
                 <form class="newsletter">
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Correo electrónico">
-                        <button type="submit" class="btn btn-primary  notificar_button">Notificar</button>
+                        <input type="email" class="form-control" placeholder="Correo electrónico" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                        <button type="submit" class="btn btn-primary  notificar_button"data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Notificar</button>
                     </div>
                 </form>
-                <img class="image_nuestro_sitio3 mx-auto" src="img/Group 6.svg">
-                <img class="image_nuestro_sitio2" src="img/favicon.svg">
+                
+                <img class="image_nuestro_sitio2" src="img/favicon.svg"data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
 
             </div>
 
-            <div class="col-md-2">
-
+            <div class="col-md-2"></div>
             </div>
+
+        <div class="imagen-prefooter"data-aos="zoom-out-up">
+            <img class="image_nuestro_sitio3 mx-auto" src="img/Group 6.svg">
+        </div>
+            
 
     </section>
 
@@ -239,6 +251,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 

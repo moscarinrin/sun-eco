@@ -199,7 +199,7 @@ a:link {
 }
 
 .contactanosh {
-
+    font-family:Helvetica!important;
     margin-bottom: 4%;
     font-weight: 910;
     letter-spacing: 2.2px;
@@ -250,14 +250,11 @@ a:link {
 }
 
 .image_nuestro_sitio3 {
-    position: absolute;
-    bottom: 0px;
-    right: 0;
-    left: 0;
-    top: 290px;
+  
 }
 
 .container_notificar {
+    position: relative;
     overflow: hidden;
     height: 800px;
 
@@ -330,6 +327,12 @@ footer {
     font-size: 22px;
     font-weight: bold;
     margin-top: 0;
+}
+.imagen-prefooter{
+    position: absolute;
+    bottom: -26px;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -417,14 +420,9 @@ footer {
         top: -120px !important;
         width: 10%;
     }
-
     .image_nuestro_sitio3 {
-
-        bottom: -207px;
-        left: 0;
-        width: 20%;
+       
     }
-
     .nuestro_sitio {
         font-size: 50px;
         font-weight: 900;
@@ -471,7 +469,7 @@ footer {
 
     .image_nuestro_sitio1 {
         left: 24%;
-        top: -143px;
+        top: -150px;
     }
 
     .container_contactanos {
@@ -488,11 +486,7 @@ footer {
         left: 96px;
     }
     .image_nuestro_sitio3 {
-        position: absolute;
-        bottom: 0px;
-        right: 0;
-        left: 0;
-        top: 360px;
+       
     }
 
 }
@@ -521,11 +515,7 @@ footer {
     }
 
     .image_nuestro_sitio3 {
-        position: absolute;
-        bottom: -128px !important;
-        right: 0;
-        left: 0;
-        width: 160px;
+       
     }
 
     .container_contactanos {
@@ -644,15 +634,12 @@ footer {
     }
 
     .image_nuestro_sitio3 {
-        bottom: -173px;
+       
     }
 
     .image_nuestro_sitio1 {
-        position: absolute;
-        left: -27%;
-        top: 20px;
-        width: 90px;
-        transform: rotate(270deg);
+       
+        display: none;
     }
 
     .image_nuestro_sitio2 {
@@ -825,10 +812,7 @@ footer {
     }
 
     .image_nuestro_sitio3 {
-        position: absolute;
-        bottom: -184px !important;
-        right: 0;
-        left: 0;
+       
     }
 
     .image_footer {
@@ -882,8 +866,11 @@ footer {
         }
 
         .image_nuestro_sitio3 {
+           
+            width: 40%!important;
+            
 
-            bottom: -154px;
+           
 
         }
 
@@ -1050,11 +1037,10 @@ footer {
     }
 
     .image_nuestro_sitio3 {
-        position: absolute;
-        right: 0;
-        left: 0;
-        width: 90px;
-        top: 111%;
+        
+        width: 34%;
+
+       
     }
 
     footer {
