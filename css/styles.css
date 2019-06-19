@@ -89,7 +89,7 @@ a:hover {
 }
 
 .form-control {
-    color: #000053;
+    color: #000053!important;
     margin-bottom: 2%;
     background-color: rgba(191, 191, 191, 0.4) !important;
     border-radius: 0;
@@ -199,7 +199,7 @@ a:link {
 }
 
 .contactanosh {
-    font-family:Helvetica!important;
+    font-family: Helvetica !important;
     margin-bottom: 4%;
     font-weight: 910;
     letter-spacing: 2.2px;
@@ -249,14 +249,12 @@ a:link {
     width: 100px;
 }
 
-.image_nuestro_sitio3 {
-  
-}
+.image_nuestro_sitio3 {}
 
 .container_notificar {
     position: relative;
     overflow: hidden;
-    height: 800px;
+    height: auto;
 
 
 }
@@ -328,7 +326,8 @@ footer {
     font-weight: bold;
     margin-top: 0;
 }
-.imagen-prefooter{
+
+.imagen-prefooter {
     position: absolute;
     bottom: -26px;
     width: 100%;
@@ -420,9 +419,9 @@ footer {
         top: -120px !important;
         width: 10%;
     }
-    .image_nuestro_sitio3 {
-       
-    }
+
+    .image_nuestro_sitio3 {}
+
     .nuestro_sitio {
         font-size: 50px;
         font-weight: 900;
@@ -485,9 +484,8 @@ footer {
         font-size: 70px;
         left: 96px;
     }
-    .image_nuestro_sitio3 {
-       
-    }
+
+    .image_nuestro_sitio3 {}
 
 }
 
@@ -514,9 +512,7 @@ footer {
         width: 60px;
     }
 
-    .image_nuestro_sitio3 {
-       
-    }
+    .image_nuestro_sitio3 {}
 
     .container_contactanos {
         height: 479px;
@@ -633,12 +629,10 @@ footer {
         font-size: 33px;
     }
 
-    .image_nuestro_sitio3 {
-       
-    }
+    .image_nuestro_sitio3 {}
 
     .image_nuestro_sitio1 {
-       
+
         display: none;
     }
 
@@ -811,9 +805,7 @@ footer {
         margin-left: 70px;
     }
 
-    .image_nuestro_sitio3 {
-       
-    }
+    .image_nuestro_sitio3 {}
 
     .image_footer {
         width: 29% !important;
@@ -866,11 +858,11 @@ footer {
         }
 
         .image_nuestro_sitio3 {
-           
-            width: 40%!important;
-            
 
-           
+            width: 45% !important;
+
+
+
 
         }
 
@@ -1037,10 +1029,7 @@ footer {
     }
 
     .image_nuestro_sitio3 {
-        
-        width: 34%;
-
-       
+        width: 30%;
     }
 
     footer {
